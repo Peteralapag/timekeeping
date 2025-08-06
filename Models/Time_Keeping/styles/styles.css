@@ -1,0 +1,48 @@
+﻿.left-sidebar {width: 300px !important;background-color: #f4f4f4; position:relative}
+.timekeeping-content {flex-grow: 1;background-color: #ffffff;margin-right: 8px;background: rgba(255, 255, 255, 0.5);backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);padding:10PX;border-radius: 7px;overflow:auto;}
+/* ############################################## TABLES ######################################################### */
+.table-style th {vertical-align:middle}
+.app-wrapper {display: flex;flex-direction: column;height: 100%;box-sizing: border-box;padding: 10px;background-color: #ffffff;}
+.title-header {display: flex;width: 100%;background-color: #e0e0e0;padding: 5px;border: 1px solid #aeaeae;border-radius: 5px 5px 0 0;}
+/*title-header span {letter-spacing: 5px;font-weight: 600} */
+.page-wrapper {flex-grow: 1;padding: 10px;overflow: auto;}
+.btn-navs {margin-left: auto; display: flex; gap: 5px; white-space: no-wrap}
+.tableFixHead  { overflow: auto; height: calc(100vh - 250px); width:100% }
+.tableFixHead thead th { position: sticky; top: 0; z-index: 1; background:#2baafa; color:#fff }
+.tableFixHead table  { border-collapse: collapse;}
+.tableFixHead th, .tableFixHead td { font-size:14px; white-space:nowrap } 
+/* ############################################## PAGINATION ######################################################### */
+.table-padding td, th {padding: 5px !important;}
+.pagination {margin: 20px 0;display: flex;justify-content: left;align-items: center;padding-top: 10px;width: 100%}
+.pagination a {padding: 5px 10px;margin: 0 5px;text-decoration: none;border: 1px solid #007bff;color: #007bff;border-radius: 5px}
+.pagination a:hover { background: #cecece;}
+.pagination a.active {background-color: #007bff;color: white;}
+.pagination .disabled {color: #ccc;pointer-events: none;}
+
+/* ####################################################################################################### */
+.data-list {
+	position:absolute;
+	display: none;
+	margin-top:3px;
+	border: 1px solid #f1f1f1;
+	background: #fff;
+	z-index: 100;
+	width: 100%;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 0px 0px 5px 5px;
+	max-height:300px;
+	overflow: auto;
+}
+.x-clear {
+	position: absolute;
+	right:7px;
+	top:4px;
+	cursor:crosshair;
+}
+.x-clear:hover {
+	color: red;
+}
+#search {
+	padding-right: 25px;
+}
